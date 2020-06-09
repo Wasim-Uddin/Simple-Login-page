@@ -1,0 +1,70 @@
+
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+/*    from Font-Awesome- BootstrapCDN     */
+
+body{
+	margin:0;
+	padding:0;
+	font-family: sans-sarif;
+	background : url(image/image2.JPG);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.login{
+	width: 280px;
+	top:50%;
+	left: 50%;
+	position:absolute;
+	color:white;
+	transform: translate(-50% , -50%);
+}
+	
+.login h1{
+	float:left;
+	font-size:50px;
+	border-bottom: 5px solid;
+	margin-bottom:30px;
+}	
+
+.textbox{
+	width: 100%;
+	font-size: 20px;
+	padding: 10px 0;
+	margin:10px 0;
+	border-bottom:1px solid white; 
+	overflow: hidden;
+}
+
+.textbox i {
+	float:left;
+	text-align: center;
+	width: 20px;
+}
+
+.textbox input{
+	font-size:15px;
+	width:50%;
+	float:left;
+	border:none;
+	outline:none;
+	background:none;
+	color:white;
+	margin: 0 10px;
+
+}
+
+.button{
+	font-size:15px;
+	width: 100%;
+	padding:5px;
+
+	/*margin:10px 0;*/	
+	
+	background:none;
+	border:2px solid white;
+	color:white;
+	cursor: pointer;
+	
+}
